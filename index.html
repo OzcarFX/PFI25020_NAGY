@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nagy Oscar PFI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--aquí reutilizo una barra de navegaci{on que vimos en la clase 7 aplicando conceptos FLEX}-->
+  <header class="header">
+    <div class="logo">
+      <img src="img/PcLogo.png" alt="Logo de la marca">
+    </div>
+    <nav>
+      <ul class="nav-links"> <!--Una lista desordenada es lo mas recomendable para la navbar-->
+        <li><a href="#">Home</a></li>
+        <li><a href="#productos">Productos</a></li> <!-- uso referencias para navegar dendro de la pagina web}-->
+        <li><a href="#contacto">About</a></li>
+      </ul>
+    </nav>
+    <a class="btn" id="btn-contacto" href="#contacto"><button>Contacto</button></a> <!-- un boton para llevar al formulario contacto-->
+  </header>
+ 
+  <main>
+
+    <section class="hero"> <!-- reutilice partes del main visto en clase que me parecio atractivo-->
+      <img src="img/PcGamers.jpeg" alt="PcGamers">
+      <div class="hero-content">
+        <h3>¡Super OFERTAS!</h3>
+        <h2>En todos los productos</h2>
+        <h1>EL FUTURO A TU ALCANCE<h1>
+        <p>¡La tecnología del mañana a un clik!</p>
+        <button onclick="location.href='#contacto'">Comprar</button>
+      </div>
+    </section>
+
+    <div class="navegacion">
+      <div class="contenedor-flex"> <!--aqui utilizo un contenedor tipo flex con imagenes pera la idea es luego prepara fichas para ventas de productos como vimos en otra clase-->
+        <img src="img/imagen1.jpg" alt="Imagen 1">
+        <img src="img/imagen2.jpg" alt="Imagen 2">
+        <img src="img/imagen3.jpg" alt="Imagen 3">
+        <img src="img/imagen4.jpg" alt="Imagen 4">
+        <img src="img/imagen5.jpg" alt="Imagen 5">
+        <img src="img/imagen6.jpg" alt="Imagen 6">
+        <img src="img/imagen3.jpg" alt="Imagen 7">
+        <img src="img/imagen4.jpg" alt="Imagen 8">
+      </div>
+    </div>
+    <h5>Lista de productos</h5>
+    <div class="caja"> 
+     
+      <table id="productos"> <!-- se que ya no es habitual utilizar talas pero me parecio interesante, loo vimos en clase y para otro tipo de proyecto me puede servir -->
+        <tr>
+          <th>Detalle</th>
+          <th>Año</th>
+          <th>Valor</th>
+          <th>Seleccionar</th>
+        </tr>
+        <tr>
+          <td>Teclado USB</td>
+          <td>2022</td>
+          <td>$10.000</td>
+          <td><input type="checkbox" name="producto" value="10000"></td>
+        </tr>
+        <tr>
+          <td>Mouse inalámbrico</td>
+          <td>2023</td>
+          <td>$10.000</td>
+          <td><input type="checkbox" name="producto" value="10000"></td>
+        </tr>
+        <tr>
+          <td>Monitor LG</td>
+          <td>2021</td>
+          <td>$50.000</td>
+          <td><input type="checkbox" name="producto" value="50000"></td>
+        </tr>
+        <tr>
+          <td>Disco HDD 500GB</td>
+          <td>2020</td>
+          <td>$200.000</td>
+          <td><input type="checkbox" name="producto" value="200000"></td>
+        </tr>
+        <tr>
+          <td>Parlantes USB</td>
+          <td>2022</td>
+          <td>$20.000</td>
+          <td><input type="checkbox" name="producto" value="20000"></td>
+        </tr>
+        <tr>
+          <td>Modem Fibra</td>
+          <td>2023</td>
+          <td>$80.000</td>
+          <td><input type="checkbox" name="producto" value="80000"></td>
+        </tr>
+        <tr>
+          <td>Memoria DDR4</td>
+          <td>2021</td>
+          <td>$300.000</td>
+          <td><input type="checkbox" name="producto" value="300000"></td>
+        </tr>
+        <tr>
+          <td>Microprocesador</td>
+          <td>2020</td>
+          <td>$500.000</td>
+          <td><input type="checkbox" name="producto" value="500000"></td>
+        </tr>
+        <tr>
+          <td>Escáner de documentos</td>
+          <td>2022</td>
+          <td>$150.000</td>
+          <td><input type="checkbox" name="producto" value="150000"></td>
+        </tr>
+      </table>
+    </div>
+
+  </main>
+
+  <footer class="footer" id="footer"> <!-- en el footer simplemente agrego el formulario de contacto ya que me llamó la atencion que realmente funciona bien. me llegan los mail con los mensajes de pruebas-->
+    <div id="contacto" class="contacto">
+      <h5>Gracias por tu visita!!</h5>
+      <p> Proyecto Final Integrador diseñado por oscarfxs@gmail.com</p>
+      <p> Comentarios y sugerencias</p>
+      <form action="https://formspree.io/f/mwpojerd" method="post">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+          <label for="email">e-mail :</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </footer>
+
+</body>
+</html>
