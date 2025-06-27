@@ -45,18 +45,18 @@
     "id": 8,
     "title": "Laptop HP Pavilion Gaming 15",
     "price": 899.99,
-    "image": "https://picsum.photos/200/307"
+    "image": "https://picsum.photos/id/7/200/300"
   },
   {
     "id": 9,
     "title": "Laptop Lenovo Yoga C940",
     "price": 999.99,
-    "image": "https://picsum.photos/200/308"
+    "image": "https://picsum.photos/id/8/200/300"
   },
   {
     "id": 10,
     "title": "Laptop Dell XPS 13",
     "price": 1099.99,
-    "image": "https://picsum.photos/200/309"
+    "image": "https://picsum.photos/id/1/200/300"
   }
 ]
