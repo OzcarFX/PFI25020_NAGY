@@ -3,60 +3,60 @@
     "id": 1,
     "title": "Laptop Dell Inspiron 15 3000",
     "price": 499.99,
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    "image": "https://picsum.photos/200/300"
   },
   {
     "id": 2,
     "title": "Laptop HP Envy x360",
     "price": 699.99,
-    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+    "image": "https://picsum.photos/200/301"
   },
   {
     "id": 3,
     "title": "Laptop Lenovo ThinkPad X1 Carbon",
     "price": 999.99,
-    "image": "https://fakestoreapi.com/img/61sbwegqplL._AC_UL640_QL65_ML3_.jpg"
+    "image": "https://picsum.photos/200/302"
   },
   {
     "id": 4,
     "title": "Laptop Apple MacBook Air",
     "price": 1099.99,
-    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+    "image": "https://picsum.photos/200/303"
   },
   {
     "id": 5,
     "title": "Laptop Asus ZenBook 14",
     "price": 799.99,
-    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
+    "image": "https://picsum.photos/200/304"
   },
   {
     "id": 6,
     "title": "Laptop Acer Aspire 5",
     "price": 399.99,
-    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+    "image": "https://picsum.photos/200/305"
   },
   {
     "id": 7,
     "title": "Laptop Microsoft Surface Laptop 3",
     "price": 999.99,
-    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+    "image": "https://picsum.photos/200/306"
   },
   {
     "id": 8,
     "title": "Laptop HP Pavilion Gaming 15",
     "price": 899.99,
-    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+    "image": "https://picsum.photos/200/307"
   },
   {
     "id": 9,
     "title": "Laptop Lenovo Yoga C940",
     "price": 999.99,
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    "image": "https://picsum.photos/200/308"
   },
   {
     "id": 10,
     "title": "Laptop Dell XPS 13",
     "price": 1099.99,
-    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+    "image": "https://picsum.photos/200/309"
   }
 ]
