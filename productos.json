@@ -58,5 +58,41 @@
     "title": "Laptop Dell XPS 13",
     "price": 1099.99,
     "image": "https://picsum.photos/id/1/200/300"
-  }
+  },
+    {
+    "id": 11,
+    "title": "Laptop Apple MacBook Air",
+    "price": 1099.99,
+    "image": "https://picsum.photos/id/3/200/300"
+  },
+  {
+    "id": 12,
+    "title": "Laptop Asus ZenBook 14",
+    "price": 799.99,
+    "image": "https://picsum.photos/id/4/200/300"
+  },
+  {
+    "id": 13,
+    "title": "Laptop Acer Aspire 5",
+    "price": 399.99,
+    "image": "https://picsum.photos/id/5/200/300"
+  },
+  {
+    "id": 14,
+    "title": "Laptop Microsoft Surface Laptop 3",
+    "price": 999.99,
+    "image": "https://picsum.photos/id/6/200/300"
+  },
+  {
+    "id": 15,
+    "title": "Laptop HP Pavilion Gaming 15",
+    "price": 899.99,
+    "image": "https://picsum.photos/id/7/200/300"
+  },
+  {
+    "id": 16,
+    "title": "Laptop Lenovo Yoga C940",
+    "price": 999.99,
+    "image": "https://picsum.photos/id/8/200/300"
+  }  
 ]
